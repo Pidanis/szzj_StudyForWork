@@ -1,0 +1,10 @@
+--name:secert2
+--author:menghua.xmh
+--create time:2020-08-28 16:44
+select test2('20','age') as (col1);
+--create table test11(name string, cnt string );
+--insert into table test11 values ('Jan', '1'), ('Jan','2'), ('Feb', '3'), ('Feb', '1'), ('Mar', '1'), ('Mar', '5');
+select test2_maptest("1", "2") as a from test12;
+select udaf_test2_1demo(totals) from publicods_enterprise_share_basic;
+--create table test12 (col1 DOUBLE );
+--insert into table test12 values (1), (2), (3);

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../program_soft/安装包/Xshell/BigData/flink-1.6.4-bin-hadoop27-scala_2.11/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../program_soft/安装包/Xshell/BigData/flink-1.6.4-bin-hadoop27-scala_2.11/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../program_soft/安装包/Xshell/BigData/flink-1.6.4-bin-hadoop27-scala_2.11/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../program_soft/安装包/Xshell/BigData/flink-1.6.4-bin-hadoop27-scala_2.11/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

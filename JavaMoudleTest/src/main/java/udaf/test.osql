@@ -1,0 +1,19 @@
+--name:test
+--author:menghua.xmh
+--create time:2020-09-02 17:45
+--create table test13(id string , xzlx string, xzje string);
+--insert into table test13 values('1', '110', '1'), ('2', '110', '1'), ('1', '120', '2'), ('2', '120', '2');
+--select id,udaf_test2(id, xzlx,xzje) from test13 group by id;
+--select * from test13;
+--select id,udaf_test2_maptest(id, xzlx, xzje) as a from test13 group by id;
+
+select zj, ls, distinct_col(zj, ls, dz) as dz from test_discol group by zj, ls;
+
+drop table test_discol;
+create table test_discol(zj string, ls string, dz string);
+insert into table test_discol values
+('1', '110', 'zj'), ('1', '110', 'js'),
+('2', '110', 'zj'), ('2', '110', 'zj'),
+('3', '110', 'zj'), ('3', '120', 'zj'),
+('3', '110', 'zj'), ('3', '120', 'js');
+select * from test_discol;

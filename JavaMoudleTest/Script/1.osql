@@ -1,0 +1,4 @@
+--name:1
+--author:menghua.xmh
+--create time:2020-08-26 19:27
+select cjzParse(cjzhm) as (c1, c2) from cjzhm;
